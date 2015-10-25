@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widgets>
+    <category_product_slider type="catalog/product_list">
+        <name>Category Product slider</name>
+        <description>Displays the products for a given category in a slider widget</description>
+    </category_product_slider>
+</widgets>
