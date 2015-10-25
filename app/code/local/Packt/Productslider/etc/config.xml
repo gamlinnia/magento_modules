@@ -6,4 +6,16 @@
             <version>0.0.1</version>
         </Packt_Productslider>
     </modules>
+    <global>
+        <blocks>
+            <productslider>
+                <class>Packt_Productslider_Block</class>
+            </productslider>
+        </blocks>
+        <helpers>
+            <productslider>
+                <class>Packt_Productslider_Helper</class>
+            </productslider>
+        </helpers>
+    </global>
 </config>
