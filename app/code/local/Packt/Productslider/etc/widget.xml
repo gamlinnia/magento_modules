@@ -3,6 +3,7 @@
     <category_product_slider type="catalog/product_list">
         <name>Category Product slider</name>
         <description>Displays the products for a given category in a slider widget</description>
+        <!-- for widget options in admin page -->
         <parameters>
             <title>
                 <label>Title (frontend)</label>
@@ -10,6 +11,13 @@
                 <required>1</required>
                 <visible>1</visible>
             </title>
+            <category_id>
+                <label>Category ID</label>
+                <type>text</type>
+                <required>1</required>
+                <sort_order>20</sort_order>
+                <visible>1</visible>
+            </category_id>
         </parameters>
     </category_product_slider>
 </widgets>
