@@ -3,5 +3,13 @@
     <category_product_slider type="catalog/product_list">
         <name>Category Product slider</name>
         <description>Displays the products for a given category in a slider widget</description>
+        <parameters>
+            <title>
+                <label>Title (frontend)</label>
+                <type>text</type>
+                <required>1</required>
+                <visible>1</visible>
+            </title>
+        </parameters>
     </category_product_slider>
 </widgets>
