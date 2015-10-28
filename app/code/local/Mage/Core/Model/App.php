@@ -1297,7 +1297,9 @@ class Mage_Core_Model_App
             'core_block_abstract_prepare_layout_after',
             'core_layout_block_create_after',
             'controller_action_postdispatch',
-            'controller_action_postdispatch_adminhtml'
+            'controller_action_postdispatch_adminhtml',
+            'core_collection_abstract_load_before',
+            'core_collection_abstract_load_after'
         );
         if (!in_array($eventName, $getRidEvents)) {
             Mage::log($eventName);
