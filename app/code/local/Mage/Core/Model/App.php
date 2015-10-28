@@ -1290,7 +1290,10 @@ class Mage_Core_Model_App
     public function dispatchEvent($eventName, $args)
     {
         /* log event name */
-        $getRidEvents = array();
+        $getRidEvents = array(
+            'core_block_abstract_to_html_before',
+            'core_block_abstract_to_html_after'
+        );
         if (!in_array($eventName, $getRidEvents)) {
             Mage::log($eventName);
         }
