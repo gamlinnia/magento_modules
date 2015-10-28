@@ -1292,7 +1292,12 @@ class Mage_Core_Model_App
         /* log event name */
         $getRidEvents = array(
             'core_block_abstract_to_html_before',
-            'core_block_abstract_to_html_after'
+            'core_block_abstract_to_html_after',
+            'core_block_abstract_prepare_layout_before',
+            'core_block_abstract_prepare_layout_after',
+            'core_layout_block_create_after',
+            'controller_action_postdispatch',
+            'controller_action_postdispatch_adminhtml'
         );
         if (!in_array($eventName, $getRidEvents)) {
             Mage::log($eventName);
