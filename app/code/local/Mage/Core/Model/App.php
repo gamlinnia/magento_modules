@@ -1290,6 +1290,12 @@ class Mage_Core_Model_App
     public function dispatchEvent($eventName, $args)
     {
         /* log event name */
+        $takeCareEvents = array(
+            'start_process_event_catalog_product_save',
+            'controller_action_postdispatch_adminhtml_catalog_product_save',
+            'catalog_product_save_after'
+
+        );
         $getRidEvents = array(
             'core_block_abstract_to_html_before',
             'core_block_abstract_to_html_after',
