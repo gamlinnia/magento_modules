@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Li_Productcreatedaction>
+            <active>1</active>
+            <codePool>local</codePool>
+        </Li_Productcreatedaction>
+    </modules>
+</config>

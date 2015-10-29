@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <modules>
+        <Li_Productcreatedaction>
+            <version>0.0.1</version>
+        </Li_Productcreatedaction>
+    </modules>
+    <!--<global>-->
+        <!--<blocks>-->
+            <!--<productcreatedaction>-->
+                <!--<class>Li_Productcreatedaction_Block</class>-->
+            <!--</productcreatedaction>-->
+        <!--</blocks>-->
+        <!--<helpers>-->
+            <!--<productcreatedaction>-->
+                <!--<class>Li_Productcreatedaction_Helper</class>-->
+            <!--</productcreatedaction>-->
+        <!--</helpers>-->
+    <!--</global>-->
+</config>
