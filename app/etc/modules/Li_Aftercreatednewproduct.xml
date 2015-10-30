@@ -1,10 +1,9 @@
 <?xml version="1.0"?>
-
 <config>
     <modules>
-        <Li_Productcreatedaction>
-            <active>1</active>
+        <Li_Aftercreatednewproduct>
+            <active>true</active>
             <codePool>local</codePool>
-        </Li_Productcreatedaction>
+        </Li_Aftercreatednewproduct>
     </modules>
 </config>
