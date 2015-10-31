@@ -31,6 +31,14 @@
                     </register_visit>
                 </observers>
             </aftercreatednewproduct_register_visit>
+            <catalog_product_save_after>
+                <observers>
+                    <catalog_product_save_custom_callapi>
+                        <class>aftercreatednewproduct/observer</class>
+                        <method>savedProductCustomCallapi</method>
+                    </catalog_product_save_custom_callapi>
+                </observers>
+            </catalog_product_save_after>
         </events>
     </global>
     <frontend>
